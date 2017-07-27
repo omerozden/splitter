@@ -1,3 +1,3 @@
 # splitter
-İnputfile = id,username,pass,gender
+İnputfile = id,username,pass,gender<br>
 Outputfile = username:pass
