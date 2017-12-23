@@ -2,7 +2,7 @@ from pathlib import Path
 
 inputFile = Path(input("Enter input file path (e.g. C:\\input.txt) : "))
 if inputFile.is_file() == False:
-	print("wrong path!")
+	sys.exit("Wrong path!!")
 spCh = input("Enter split character : ")
 newCh = input("Enter new character : ")
 inputCol = input("Enter column numbers (e.g 1,3,4,7) : ").split(",")
